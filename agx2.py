@@ -112,7 +112,7 @@ def algoritmo_genetico(populacao):
 
 if __name__ == '__main__':
     tamanho_cromossomo = 5
-    tamanho_populacao = 5
+    tamanho_populacao = 50
     populacao = [''.join(random.choice('01') for i in range(tamanho_cromossomo)) for j in range(tamanho_populacao)]
     max_geracoes = 1000
     max_fitness = 31**2
